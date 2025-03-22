@@ -1,8 +1,16 @@
-# Fake News Detection
-• ```Challenge```: Automated Fake News Detection seeks to learn the best solution for handling challenging problems in deception detection, as it highlights prospective on real-world politics and social media. Built a classifier that detects whether a political statement from US 2016 elections is fake news or not.
+# DeFacto: Fake News Detection System
 
-• ```Solution```: Performed an experimental approach based on “Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection. Incorporated various feature engineering procedure including web-scraping to generate attributes to help classify fake news. Implemented text mining and deep learning modeling techniques to distinguish between various labels of statements. Transformed and modeled the problem in 4 different approaches to seek the best result in each case. Assessed models performance based on minimum classification error rate.
+**DeFacto** is a machine learning-based tool that classifies fake news articles using a hybrid model built with **Scikit-learn**, **TensorFlow**, and **Keras**. The system analyzes social and political content to detect deception in news stories and social media posts, providing a reliable solution to address the growing issue of misinformation.
 
-• ```Result```: In this experiment, achieved 70.38% accuracy on Binary classification, 57.99% accuracy on three-class multinomial classification, 42.4% accuracy on six-class multinomial and ordinal classification.
+## Features
+- **Fake News Detection:** Classifies news articles and social media posts as real or fake based on the content.
+- **Model Training:** Built using **Scikit-learn**, **TensorFlow**, and **Keras** for high accuracy in detection.
+- **Data Preprocessing:** Data is preprocessed and features are engineered using **R**, **Pandas**, and **NumPy**, optimizing model performance and reliability.
+- **Real-Time Classification:** Users can input articles or posts for immediate classification.
+- **User-Friendly Interface:** Simple interface for quick and easy analysis of content.
 
-Note: The given dataset has been cleaned and preprocessed.
+## Tech Stack
+- **Machine Learning Libraries:** **Scikit-learn**, **TensorFlow**, **Keras** for model building and training.
+- **Data Science Tools:** **R**, **Pandas**, **NumPy** for feature engineering and preprocessing.
+- **Frontend (optional):** Flask (if you want to create a web interface for the app).
+- **Version Control:** Git for collaboration and code management.
