@@ -1,0 +1,7 @@
+// The report should filter to a single run. A mixed selection stays blank.
+Selected Accuracy = SELECTEDVALUE(experiments[accuracy])
+Selected Macro F1 = SELECTEDVALUE(experiments[macro_f1])
+Selected Balanced Accuracy = SELECTEDVALUE(experiments[balanced_accuracy])
+Selected Majority Accuracy = SELECTEDVALUE(experiments[majority_accuracy])
+Accuracy Improvement = [Selected Accuracy] - [Selected Majority Accuracy]
+Evaluation Rows = SELECTEDVALUE(experiments[test_rows])
